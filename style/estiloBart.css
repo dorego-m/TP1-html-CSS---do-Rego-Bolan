@@ -4,28 +4,27 @@
     /*border: 1px solid black;*/
 }
 body{
-    background-color: rgb(255, 228, 196);
+    background-color:rgb(255, 232, 211);
 }
 header{
     width: 100%;
     display: inline-block;
-    background-color: rgb(236, 236, 236);
-    box-shadow: 0px 5px 25px rgb(212, 184, 151);
+    background-color: rgb(85, 101, 197);
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.397);
+    padding-top: 1%;
 }
 
+header h2{
+    color:rgb(255, 186, 82);
+}
 
 header nav{
     width: 100%;
-    margin-top: 1%;
     margin-bottom: 4%;
 }
 
-nav ul img{
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 1%;
-    float: left;
-    width: 10%;
+nav ul{
+    padding-left: 30%;
 }
 
 nav ul li{
@@ -36,54 +35,64 @@ nav ul li{
     list-style: none;
     float: left;
     width: 3.5%;
-    border-style: solid;
-    border-width: 1px;
-    border-top-color: white;
-    border-left-color: white;
-    background-color: lightgrey;
     margin-top: 1.75%;;
     margin-right:6%;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(69, 43, 187);
+}
+
+.Textomaslargo{
+    padding-right: 2%;
+}
+
+.Textounpoquitomaslargo{
+    padding-right: 4%;
 }
 
 nav ul li a {
     text-decoration: none;
+    color: rgb(255, 232, 211);
 }
 
 section {
     clear: both;
     display: inline-block;
+    padding-top: 5%;
 }
 
-.SectionFondoImagen{
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/47/Bart_Simpson_statue.jpg');
-    background-size: cover;
-    background-position: center;
+.SectionLadoImagen img{
+    width: 31%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.SectionFondoImagen h1{
-    text-align: left;
-    font-size: 5em;
-    font: times;
-    color: white;
-    padding: 9%;
-    padding-left: 1%;
-    padding-bottom: 5%;
-}
-
-.SectionFondoImagen p{
-    width: 50%;
+.SectionLadoImagen h1{
+    width: 90%;
     text-align: left;
     font-size: 2em;
     font: times;
-    color: white;
-    padding: 5%;
-    padding-left: 1%;
+    color: rgb(69, 43, 187);
+    padding-bottom: 4%;
+}
+
+.SectionLadoImagen p{
+    width: 90%;
+    text-align: left;
+    font-size: 1.5em;
+    font: times;
+    color: rgb(69, 43, 187);
 }
 
 .Introduccion{
     width: 100%;
     margin-top: 4%;
     margin-bottom: 4%;
+    border: 6px solid rgb(69, 43, 187);
+    border-left: 0px;
+    border-right: 0px;
+    background-color: rgb(85, 101, 197);
 }
 
 .Introduccion div {
@@ -136,6 +145,11 @@ h1 {
     text-align: center;
     font-size: 5em;
     font: times;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
 }
 
 footer img 
