@@ -85,7 +85,7 @@ section {
     color: rgb(69, 43, 187);
 }
 
-.Introduccion{
+.Cartas{
     width: 100%;
     margin-top: 4%;
     margin-bottom: 4%;
@@ -95,7 +95,7 @@ section {
     background-color: rgb(85, 101, 197);
 }
 
-.Introduccion div {
+.Cartas div {
     float: left;
     width: 25%;
     padding: 2%;
@@ -104,41 +104,37 @@ section {
     margin-right: 2%;
 }
 
-.Introduccion div h1{
+.Cartas div h1{
     text-align: center;
     font-size: 2em;
 }
 
-.Introduccion h1{
+.Cartas h1{
     text-align: center;
     font-size: 2.5em;
 }
 
-.Introduccion p{
+.Cartas p{
     text-align: center;
     font-size: 1.2em;
 }
 
-.Productos{
-    text-align: center;
-    width: 75%;
-    margin-left: 12.5%;
-    margin-top: 0%;
-    margin-bottom: 0%;
+.info {
+  padding: 40px;
 }
 
-.Productos img{
-    float:left;
+.info div {
+  margin-bottom: 30px;
 }
 
-.Productos h1{
-    font-size: 2.5em;
+.info div img {
+  float: left;
+  width: 200px;
+  margin-right: 20px;
 }
 
-.Productos ul li{
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-size: 1.5em;
+.info div p {
+  line-height: 1.6;
 }
 
 h1 {
